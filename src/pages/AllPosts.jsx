@@ -33,7 +33,7 @@ const AllPosts = () => {
         {console.log(posts)}
         {console.dir(posts)}
 
-        {posts.map((post)=>(
+        {/* {posts.map((post)=>(
           <div className="post" key={post.id}>
             <div className="img">
               <img src={`../upload/${post.img}`} alt=""/>
@@ -46,7 +46,7 @@ const AllPosts = () => {
               <button>Read More...</button>
             </div>
           </div>
-        ))}
+        ))} */}
       </div>
     </div>
   )
