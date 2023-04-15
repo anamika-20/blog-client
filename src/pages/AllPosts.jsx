@@ -30,6 +30,9 @@ const AllPosts = () => {
   return (
     <div className='allposts'>
       <div className="posts">
+        {console.log(posts)}
+        {console.dir(posts)}
+
         {posts.map((post)=>(
           <div className="post" key={post.id}>
             <div className="img">
